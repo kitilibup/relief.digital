@@ -2,7 +2,7 @@ let font;
 let responsiveText = 250;
 let vehicles = [];
 function preload () {
-  font = loadFont('caveat-regular.otf');
+  font = loadFont('../kitilibup/caveat-regular.otf');
 }
 
 function setup() {
