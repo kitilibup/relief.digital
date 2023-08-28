@@ -345,7 +345,7 @@ transition: all 0.3s 0.1s ease-in-out;
 
 footer {
     position: absolute;
-    bottom: 1%;
+    bottom: 0.9%;
     right: 2%;
     font-size: 15px;
     font-style: normal;
