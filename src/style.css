@@ -67,7 +67,7 @@ padding-left: 50px;
 padding-right: 50px;
 margin: auto;
 height: 100%;
-/* box-sizing: border-box; */
+box-sizing: border-box;
 overflow: hidden;
 }
 
