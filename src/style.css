@@ -112,7 +112,7 @@ font-weight: 700;
 }
 
 .logo-color {
-    color: #FFFFFF !important;
+    color: #000!important;
     transition: all 0.3ms ease-in-out;
 }
 
