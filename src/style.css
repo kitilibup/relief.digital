@@ -349,6 +349,7 @@ footer {
     position: absolute;
     bottom: 0.9%;
     right: 2%;
+    padding-left: 2%;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -366,7 +367,7 @@ footer a {
     border-radius: 100px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
 
 #intro-container {
     position:absolute;
@@ -453,7 +454,7 @@ footer a {
         width: 400px;
         height: 800px;
         left: 3%;
-        bottom: -65%;
+        bottom: -60%;
     }
 
     #app-store {
