@@ -43,7 +43,8 @@ footer {
 } */
 
 :root {
-    --Blue: hsla(230, 100%, 54%, 1);
+    /* --Blue: hsla(230, 100%, 54%, 1); */
+    --Blue: hsla(230, 100%, 44%, 1);
     --Warm-white: hsla(43, 88%, 97%, 1);
     --Orange: hsla(10, 95%, 75%, 1);
     --Dark: hsla(188, 31%, 14%, 1);

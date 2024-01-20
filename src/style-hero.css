@@ -45,7 +45,7 @@
         justify-content: flex-start;
         align-items: center;
         height: 800px;
-        margin-top: 5rem;
+        margin-top: 3rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -136,6 +136,12 @@
         justify-content: space-between;
         align-items: flex-start;
         gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #intro-container {
+        gap: 12rem;
     }
 }
 
