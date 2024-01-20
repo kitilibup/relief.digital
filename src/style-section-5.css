@@ -9,6 +9,7 @@
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    background: var(--Dark);
 }
 
 @media screen and (max-width: 1200px) {
