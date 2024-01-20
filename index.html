@@ -1,61 +1,261 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <html>
 <head>
-    <link href="src/style.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/style-general.css" rel="stylesheet" type="text/css">
+    <link href="src/style-nav.css" rel="stylesheet" type="text/css">
+    <link href="src/style-hero.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-2.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-3.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-4.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-5.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-6.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-7.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-7-1.css" rel="stylesheet" type="text/css">
+    <link href="src/style-section-8.css" rel="stylesheet" type="text/css">
+    <link href="src/style-footer.css" rel="stylesheet" type="text/css">
     <title></title>
 </head>
-<body class="theme">
-    <nav class="navigation">
-            <div class="logo-container">Pantry<span>Pal</span>
+<body>
+<div class="background-layer"></div>
+<div class="nav-wrapper"></div> 
+<header class="primary-header">
+  <div class="logo-container"></div>
+  <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+    <span class="sr-only">Menu</span>
+  </button>
+  <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">    
+                    <li class="menu-items" id="item1"> 
+                        <a href="#how-it-works">How it works</a>		
+                    </li>               
+                    <li class="menu-items" id="item2"> 
+                        <a href="#user-stories">User Stories</a>		
+                    </li>  
+                    <li class="menu-items" id="item3"> 
+                        <a href="#learn">Learn</a>		
+                    </li>
+                    <li id="button-shop">        
+                    <a>Shop</a>
+                    </li> 
+            </ul>
+      </nav>
+      </header>
+    <section class="hero" aria-label="Hero section"> 
+    <div id="intro-container">
+        <div class="intro-header">
+            <h1>
+                Take control of your IBS symptoms!
+            </h1>
+            <p>
+                Helping your digestive health by keeping track of your diet and symptoms.   
+            </p>
+            <div id="app-store">
+            <a>Download Now</a>  
             </div>
-            <div id="menu-container">    
-            <div id="switch-wrapper">
-                <div class="switch-on" id="switch-toggle" ></div>
-            </div>
-            <div class="header" id="item1"> 
-                <a>Product</a>		
-            </div>
-                
-            <div class="header" id="item2"> 
-                <a>Features</a>		
-            </div>
-                
-            <div class="header" id="item3"> 
-                <a>About</a>		
-            </div>
-                
-            <div class="header" id="item1"> 
-                <a>Help</a>		
-            </div>
-                
-            <a id="sign-up">Get Started Today</a>  
+        </div>    
+        <div class="intro-image-container">
+            <div id="layer1"></div>
+            <div id="layer2"></div>
+            <div id="iphone"></div>
         </div>
     </div>
-    </nav>
-<section class="hero"> 
-<div id="intro-container">
-    <div id="hands"></div>
-    <h1>
-        Revolutionize your fridge with PantryPal!
-    </h1>
-    <p>
-        Transform your kitchen into a wastefree wonderland!   
+    </section>
+
+    <section class="text-block" aria-label="Insights digestive discomfort">
+    <h2>
+        Digestive disruptions affect productivity on average
+    </h2>
+    <p class="text-large">
+        8
     </p>
-    <div id="button-container">
-        <a id="app-store"></a>   
-        <a id="google-play"></a>
-    </div>    
+    <p class="text-medium">
+        days per month
+    </p>
+    <p class="text-small">
+        Did you know that even small quantities of certain ingredients can be a risk factor?
+    </p>
+    </section>
+
+    <section id="how-it-works" class="text-block-2" aria-label="App's functionalities">
+        <h3>
+            How it works?
+        </h3>
+        <p class="text-small">
+            Track your diet, stress, sleep, and symptoms while assessing fermentation levels for personalized, instant insights.   
+        </p>
+        <div class="observer-2 cta-watch">
+            <a>See Demo</a>
+        </div>
+    </section>
+    <section class="service-wrapper" aria-label="Advantages">
+          <ul class="card-wrapper">
+              <div class="observer-2 icon-container">
+                <div class="service-icon-1"></div>
+              </div>
+              <div class="observer-1">
+              <h4>
+                Efficient
+              </h4>
+              <p class="text-small">
+                Leveraging clinically validated technology utilized within the realms of healthcare and research.
+              </p>
+            </div>
+            </ul>
+          <ul class="card-wrapper">
+            <div class="observer-2 icon-container">
+            <div class="service-icon-2"></div>
+            </div>
+            <div class="observer-1">
+            <h4>
+              Personalised
+            </h4>
+            <p class="text-small">
+              Your digestive system is distinct. We aim to discover the ideal foods tailored to your needs.
+            </p>
+          </div>
+          </ul>
+        <ul class="card-wrapper">
+          <div class="observer-2 icon-container">
+          <div class="service-icon-3"></div>
+          </div>
+          <div class="observer-1">
+          <h4>
+            Adaptable
+          </h4>
+          <p class="text-small">
+            Assess your digestion of various foods and ingredients. Take charge of the process now.
+          </p>
+        </div>
+        </ul>
+    </section>
+    <section class="story" aria-label="Team story">
+      <div class="story-container">
+          <div class="observer-1 story-intro">
+            <h3>Our Story</h3>
+            <p class="text-small">
+              In the wake of the challenging year 2020, David, like many, grappled with digestive discomfort. Recognising the widespread issue, he conceptualised an innovative app to aid those facing similar challenges. Collaborating with health experts and tech-savvy associates, the idea for "Relief" was born...
+            </p>
+            <div class="observer-2 cta-team">
+              <a>Meet Team</a>
+            </div>
+          </div>
+      </div>
+      <div class="image-team"></div>
+      <div class="image-container">
+        <div class="team-mask"></div>
+      </div>
+    </section>
+    <section id="user-stories" class="testimonial" aria-label="Testimonials">
+      <h2 class="observer-1">What people say about us</h2>
+      <div class="observer-1 testimonial-card-container">
+        <ul class="testimonial-2 testimonial-column">
+          <div class="observer-2 icon-quote"></div>
+          <p class="small-text">Relief has been a game-changer for me! Dealing with chronic digestive issues was a daily struggle until I found this app. Its personalized meal plans and symptom tracking have immensely improved my life. I feel more in control and have a better understanding of what triggers my discomfort. The virtual consultations with specialists have been invaluable. I can't thank the creators enough for this amazing tool!</p>
+          <p class="author">Emily S.</p>
+        </ul>
+        <ul class="testimonial-1 testimonial-column">
+          <div class="observer-2 icon-quote"></div>
+          <p class="small-text">As a nutritionist, I highly recommend Relief to my clients with digestive disorders. The app offers tailored meal plans and access to medical experts, complements my dietary recommendations perfectly. My clients report significant improvements in managing their conditions. The recipe library ensures a diverse and enjoyable eating experience, making it an indispensable tool in my practice.</p>
+          <p class="author">David M., Registered Dietitian</p>
+        </ul>
+        <ul class="testimonial-3 testimonial-column">
+          <div class="observer-2 icon-quote"></div>
+          <p class="small-text">Living with IBS has been challenging, but this app has been a godsend! The ability to track my symptoms and identify trigger foods has been life-changing. The app's AI-generated meal plans have significantly reduced my discomfort. Connecting with others who understand what I'm going through has been incredibly comforting. I highly recommend Relief to anyone with digestive issues.</p>
+          <p class="author">Alex P.</p>
+        </ul>
+      </div>
+    </section>
+    <section class="marquee" aria-label="Marquee text">
+      <h2 class="observer-1">Featured in</h2>
+      <div class="marquee-container">
+        <div class="observer-2 marquee-wrapper">
+          <div class="marquee-logo"><img src="../images/vogue-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/bbc-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/entrepreneur-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/forbes-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/FTlogo-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/cnn-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/mashable-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/rte-logo.svg"></div>
+          <div class="marquee-logo"><img src="../images/wall-street-logo.png"></div>
+          <div class="marquee-logo"><img src="../images/sky-logo.svg"></div>
+        </div>
+      </div>
+    </section>
+    <section id="learn" class="text-block-3" aria-label="Try it now">
+      <div class="text-block-wrapper">
+      <div class="text-container-second">
+        <h3 class="observer-1">Start your experience with Relief!</h3>
+        <p>Helping your digestive health by keeping track of your food and symptoms.</p>
+        <div class="observer-2 button-cta-secondary">
+          <a>Try Now</a>
+        </div>
+      </div>
+      <div class="image-container-second">
+        <div class="iphone2"></div>
+      </div>
+    </div>
+    </section>
+<section class="subscribe">
+  <div class="subscribe-wrapper">
+  <h3>Join our Community</h3>
+  <p>Receive weekly newsletters on digestive health and our diet tips. Get 20% off your subscription!</p>
+  <div class="form-wrapper">
+    <form>
+      <input type="email" id="email-field"/>
+      <label for="email">E-mail</label>
+      <button id="subscribe-button">Subscribe</button>
+    </form>
+  </div>
 </div>
-<svg id="layer1" xmlns="http://www.w3.org/2000/svg" width="753" height="741" viewBox="0 0 753 741">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M434.106 0.497041C541.547 5.36096 665.432 21.5769 726.04 104.307C785.905 186.023 729.399 287.867 714.612 383.389C699.532 480.801 717.75 591.41 640.293 658.216C555.904 731 427.477 755.718 311.987 730.649C201.01 706.56 119.293 622.64 60.7303 532.412C7.87955 450.984 -14.4245 355.483 10.1224 265.561C32.7488 182.675 107.65 127.695 184.289 79.7817C259.554 32.7282 341.547 -3.6932 434.106 0.497041Z"/>
-</svg>
-<div id="layer2"></div>
-<div id="iphone"></div>
 </section>
 <footer>
-    <div class="footer-wrapper">The Passerelle Study Project 2023. Page created by <a href="https://alexiux.com">Alexei</a> in collaboration with Melisa, Pietro, Christoph</div>
+  <div class="footer-wrapper">
+  <div class="footer-container-text">
+    <div id="footer-list" class="item-company">
+      <p>Digestive Systems Ltd.</p>
+      <p>3 Willow Lane, Bayside Heights, Evergreen City, AZ 98765
+        Support: info@relief.com</p>
+    </div>
+    <div id="footer-list" class="item-2">
+      <p>ABOUT</p>
+      <a>About us</a>
+      <a>Support</a>
+      <a>FAQ</a>
+      <a>Contact</a>
+    </div>
+    <div id="footer-list" class="item-3">
+      <p>LEGAL</p>
+      <a>Terms & Conditions</a>
+      <a>Privacy Policy</a>
+    </div>
+    <div id="footer-list" class="item-4">
+      <p>APPS</p>
+      <div class="app-icon-wrapper">
+        <div class="app-icon"><img src="../images/icon-apple.svg"></div>
+        <a>iOS</a>
+      </div>
+      <div class="app-icon-wrapper">
+        <div class="app-icon"><img src="../images/icon-android.svg"></div>
+        <a>Android</a>
+      </div>
+    </div>
+    <div id="footer-list" class="item-5">
+      <p>SOCIAL MEDIA</p>
+      <div class="social-icon-wrapper">
+        <div class="social-icon"><img src="../images/icon-facebook.svg"></div>
+        <div class="social-icon"><img src="../images/icon-ig.svg"></div>
+      </div>
+      <a href="https://www.alexiux.com/">Site by alexiux</a>
+    </div>
+  </div>
+  <div id="footer-company-logo"></div>
+</div>
 </footer>
+
 <script src="src/script.js"></script>
+
 </body>
 </html>

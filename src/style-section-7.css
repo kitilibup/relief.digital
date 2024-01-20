@@ -1,0 +1,172 @@
+.text-block-3 {
+    background: var(--Blue);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 470px) {
+    .text-block-3 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block-3 {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .text-block-3 {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .text-block-3 h3 {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block-3 h3 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-block-3 p {
+        font-size: 16px;
+    }
+}
+
+.text-block-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+    .text-block-wrapper  {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.image-container-second {
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 750px) {
+    .image-container-second  {
+        align-items: center;
+        margin-top: -3rem;
+    }
+}
+
+.iphone2 {
+    background-image: url('../images/iphone-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 501px;
+    height: 503.605px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .iphone2 {
+        background-size: 70%;
+        width: 350px;
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .iphone2 {
+        width: 401px;
+        height: 403px;
+    }
+}
+
+.text-container-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 600px;
+}
+
+.text-container-second h3, p {
+    color: var(--Warm-white);
+}
+
+.text-container-second p {
+    margin-top: 20px;
+    max-width: 360px;
+    text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+    .text-container-second  {
+        text-align: center;
+        margin-top: -4rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .text-container-second p  {
+        align-self: center;
+        text-align: center;
+    }
+}
+
+.button-cta-secondary{
+    border: 1px solid var(--Warm-white);
+    margin-top: 25px;
+    display: inline-flex;
+    border-radius: 20px;
+    background: var(--Warm-white);
+    display: inline-flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition: border 0.3s 0.1s linear;
+    -moz-transition: border 0.3s 0.1s linear;
+    -o-transition: border 0.3s 0.1s linear;
+    transition: border 0.3s 0.1s linear;
+    color: var(--Blue);
+}
+
+
+@media screen and (max-width: 750px) {
+    .button-cta-secondary  {
+        align-self: center;
+        margin-top: 1rem;
+    }
+}
+.button-cta-secondary:hover {
+    border: 1px solid var(--Warm-white);
+    color: var(--Warm-white);
+    background: var(--Blue);
+    color: var(--Warm-white);
+}

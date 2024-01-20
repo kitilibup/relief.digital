@@ -1,0 +1,132 @@
+.testimonial {
+    max-width: 1600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 800px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 470px) {
+    .testimonial {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 1150px !important;    
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .testimonial {
+        height: 1050px;
+        gap: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .testimonial {
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .testimonial {
+        height: 1100px;
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 975px) {
+    .testimonial h2 {
+        align-self: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .testimonial h2 {
+        line-height: 110%;
+    }
+}
+
+.testimonial-card-container {
+    width: 100%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+@media screen and (max-width: 975px) {
+    .testimonial-card-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+.testimonial-column {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 350px;
+    height: 100%;
+    align-items: start;
+    /* max-width: 400px; */
+}
+
+@media screen and (max-width: 975px) {
+    .testimonial-column {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .testimonial-column p {
+        font-size: 16px;
+    }
+}
+
+.testimonial-column .icon-quote {
+    background-image: url('../images/icon-quote.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 35.849px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .testimonial-column .icon-quote {
+        width: 25px;
+        height: 15px;
+    }
+}
+
+.testimonial-column .small-text {
+    color: var(--Warm-white);
+    font-weight: 300;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.testimonial-column .author {
+    color: var(--Warm-white);
+    font-weight: 300;
+    font-weight: 600;
+    justify-content: end;
+    margin-top: 0.3em;
+    text-align: left;
+}

@@ -1,0 +1,106 @@
+.text-block {
+    height: 550px;
+    width: 100%;
+    background: var(--Blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-block {
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 470px) {
+    .text-block {
+        height: 400px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.text-block h2 {
+    max-width: 600px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-block h2{
+        font-size: 40px;
+        line-height: 115%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .text-block h2 {
+        font-size: 30px !important;
+    }
+}
+
+.text-block .text-large {
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block .text-large{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-block .text-large{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .text-block .text-large{
+        font-size: 40px;
+    }
+}
+
+.text-block .text-medium {
+    margin: 0;
+    font-size: 20px;
+    line-height: 110%;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-block .text-medium {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-block .text-medium {
+        font-size: 40px;
+        line-height: 120%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .text-block .text-medium {
+        font-size: 30px;
+        line-height: 120%;
+    }
+}
