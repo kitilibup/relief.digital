@@ -89,7 +89,7 @@ footer {
 }
 
 #footer-list a:hover {
-    color: var(--Background-Orange, #FC9783);
+    color: var(--Orange);
 }
 
 #footer-list > :first-child {
