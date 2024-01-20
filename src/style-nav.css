@@ -58,7 +58,6 @@
         flex-wrap: nowrap;
         height: 40px;
         width: 100%;
-        align-items: center;
         z-index: 12000;
         
     }
@@ -127,7 +126,7 @@
         }
 
         #button-shop {
-            margin-left: -0.2rem !important;
+            margin-left: -0.1rem !important;
             border: 1px solid var(--Warm-white) !important;
             border-radius: 30px !important;
             background: var(--Blue) !important;
