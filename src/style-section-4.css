@@ -91,7 +91,7 @@
     align-items: center;
     flex-grow: 1;
     overflow: visible;
-    z-index: 10000;
+    z-index: 8000;
 }
 
 
