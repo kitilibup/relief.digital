@@ -104,11 +104,11 @@
             position: fixed;
             height: 100vh;
             inset: 0 0 0 40%;
-            background: hsla(230, 100%, 54%, 1);
+            background: hsla(188, 60%, 20%, 1)!important;
             -webkit-backdrop-filter: blur(1px);
             backdrop-filter: blur(1px);
-            -webkit-mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 40%, #182B2E 80%, #182B2E 100%);
-            mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #182B2E 50%, #182B2E 100%);
+            /* -webkit-mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 40%, #182B2E 80%, #182B2E 100%);
+            mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #182B2E 50%, #182B2E 100%); */
             flex-direction: column;
             padding: min(20vh, 10rem) 2rem;
             transform: translateX(100%);
